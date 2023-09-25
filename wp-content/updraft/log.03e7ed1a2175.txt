@@ -1,0 +1,142 @@
+0000.000 (0) Opened log file at time: Wed, 14 Dec 2022 13:43:40 +0000 on http://calendario.cbvela.org.br
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.25 WP: 6.1.1 PHP: 7.4.8 (fpm-fcgi, Linux web1165.kinghost.net 4.4.276-1.el6.x86_64 #1 SMP Thu Jul 22 19:41:08 -03 2021 x86_64) MySQL: 5.5.62-log (max packet size=16777216) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 69.6M | 72M) multisite: N openssl: OpenSSL 1.0.1e 11 Feb 2013 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 85319.2 MB
+0000.027 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.033 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.035 (0) Set semaphore last lock (fd) time to 2022-12-14 13:43:40
+0000.036 (0) Semaphore lock (fd) complete
+0000.045 (0) Backup run: resumption=0, nonce=03e7ed1a2175, file_nonce=03e7ed1a2175 begun at=1671025420 (0s ago), job type=backup, label=Faça um backup automaticamente antes de
+0000.047 (0) Scheduling a resumption (1) after 300 seconds (1671025720) in case this run gets aborted
+0000.080 (0) Checking if we have a zip executable available
+0000.082 (0) Creation of backups of directories: beginning
+0000.086 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.085 (0) Total entities for the zip file: 1652 directories, 7051 files (0 skipped as non-modified), 102.5 MB
+0004.092 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.152 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 100 files added (on-disk size: 292.6 KB)
+0004.179 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 200 files added (on-disk size: 292.6 KB)
+0004.207 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 300 files added (on-disk size: 292.6 KB)
+0004.239 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 400 files added (on-disk size: 292.6 KB)
+0004.268 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 500 files added (on-disk size: 292.6 KB)
+0004.296 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 600 files added (on-disk size: 292.6 KB)
+0004.318 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 700 files added (on-disk size: 292.6 KB)
+0004.341 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 800 files added (on-disk size: 292.6 KB)
+0004.364 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 900 files added (on-disk size: 292.6 KB)
+0004.387 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1000 files added (on-disk size: 292.6 KB)
+0004.389 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.2 MB, 7051 files batched, 1001 (1002) added so far); re-opening (prior size: 292.6 KB)
+0005.189 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1100 files added (on-disk size: 2433 KB)
+0005.212 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1200 files added (on-disk size: 2433 KB)
+0005.238 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1300 files added (on-disk size: 2433 KB)
+0005.274 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1400 files added (on-disk size: 2433 KB)
+0005.306 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1500 files added (on-disk size: 2433 KB)
+0005.329 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.4 MB, 7051 files batched, 573 (1575) added so far); re-opening (prior size: 2433 KB)
+0007.463 (0) A useful amount of data was added after this amount of zip processing: 2.5 s (normalised: 2.5 s, rate: 10249.9 KB/s)
+0007.464 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.54246592522, normalised_time=2.49758141162, max_time=7.46321511269, data points known=1, old_max_bytes=26214400, new_max_bytes=62975484)
+0007.480 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1600 files added (on-disk size: 8664 KB)
+0007.501 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1700 files added (on-disk size: 8664 KB)
+0007.523 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1800 files added (on-disk size: 8664 KB)
+0007.549 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 1900 files added (on-disk size: 8664 KB)
+0007.571 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2000 files added (on-disk size: 8664 KB)
+0007.594 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2100 files added (on-disk size: 8664 KB)
+0007.617 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2200 files added (on-disk size: 8664 KB)
+0007.641 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2300 files added (on-disk size: 8664 KB)
+0007.670 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2400 files added (on-disk size: 8664 KB)
+0007.696 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2500 files added (on-disk size: 8664 KB)
+0007.715 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.3 MB, 7051 files batched, 1001 (2576) added so far); re-opening (prior size: 8664 KB)
+0009.238 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2600 files added (on-disk size: 12777.5 KB)
+0009.266 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2700 files added (on-disk size: 12777.5 KB)
+0009.290 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2800 files added (on-disk size: 12777.5 KB)
+0009.320 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 2900 files added (on-disk size: 12777.5 KB)
+0009.342 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3000 files added (on-disk size: 12777.5 KB)
+0009.364 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3100 files added (on-disk size: 12777.5 KB)
+0009.386 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3200 files added (on-disk size: 12777.5 KB)
+0009.410 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3300 files added (on-disk size: 12777.5 KB)
+0009.434 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3400 files added (on-disk size: 12777.5 KB)
+0009.459 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3500 files added (on-disk size: 12777.5 KB)
+0009.482 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.1 MB, 7051 files batched, 1001 (3577) added so far); re-opening (prior size: 12777.5 KB)
+0010.911 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3600 files added (on-disk size: 16200.6 KB)
+0010.949 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3700 files added (on-disk size: 16200.6 KB)
+0010.976 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3800 files added (on-disk size: 16200.6 KB)
+0011.009 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 3900 files added (on-disk size: 16200.6 KB)
+0011.040 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4000 files added (on-disk size: 16200.6 KB)
+0011.072 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4100 files added (on-disk size: 16200.6 KB)
+0011.097 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4200 files added (on-disk size: 16200.6 KB)
+0011.123 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4300 files added (on-disk size: 16200.6 KB)
+0011.155 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4400 files added (on-disk size: 16200.6 KB)
+0011.185 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4500 files added (on-disk size: 16200.6 KB)
+0011.207 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.7 MB, 7051 files batched, 1001 (4578) added so far); re-opening (prior size: 16200.6 KB)
+0012.499 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4600 files added (on-disk size: 18236.1 KB)
+0012.523 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4700 files added (on-disk size: 18236.1 KB)
+0012.548 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4800 files added (on-disk size: 18236.1 KB)
+0012.572 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 4900 files added (on-disk size: 18236.1 KB)
+0012.597 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5000 files added (on-disk size: 18236.1 KB)
+0012.619 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5100 files added (on-disk size: 18236.1 KB)
+0012.645 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5200 files added (on-disk size: 18236.1 KB)
+0012.667 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5300 files added (on-disk size: 18236.1 KB)
+0012.695 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5400 files added (on-disk size: 18236.1 KB)
+0012.722 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5500 files added (on-disk size: 18236.1 KB)
+0012.742 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13 MB, 7051 files batched, 1001 (5579) added so far); re-opening (prior size: 18236.1 KB)
+0014.007 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5600 files added (on-disk size: 25023.3 KB)
+0014.038 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5700 files added (on-disk size: 25023.3 KB)
+0014.067 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5800 files added (on-disk size: 25023.3 KB)
+0014.100 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 5900 files added (on-disk size: 25023.3 KB)
+0014.129 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6000 files added (on-disk size: 25023.3 KB)
+0014.156 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6100 files added (on-disk size: 25023.3 KB)
+0014.179 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6200 files added (on-disk size: 25023.3 KB)
+0014.204 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6300 files added (on-disk size: 25023.3 KB)
+0014.228 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6400 files added (on-disk size: 25023.3 KB)
+0014.256 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6500 files added (on-disk size: 25023.3 KB)
+0014.281 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.3 MB, 7051 files batched, 1001 (6580) added so far); re-opening (prior size: 25023.3 KB)
+0015.708 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6600 files added (on-disk size: 31270.5 KB)
+0015.733 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6700 files added (on-disk size: 31270.5 KB)
+0015.759 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6800 files added (on-disk size: 31270.5 KB)
+0015.783 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 6900 files added (on-disk size: 31270.5 KB)
+0015.810 (0) Zip: backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.tmp: 7000 files added (on-disk size: 31270.5 KB)
+0017.165 (0) Creating zip file manifest (backup_2022-12-14-1043_Calendrio_CBVela_03e7ed1a2175-plugins.zip.list-temp.tmp)
+0017.179 (0) Successfully created zip file manifest (size: 596742)
+0017.532 (0) Created plugins zip (0) - 32402 KB in 17.4 s (1857.6 KB/s) (sha1: a6c75280fad24d51c2a4226e611c45173669e492, sha256: 1aa39d1f0a3935cff103baf631e8e895afd21914881736a56a72840dac551511)
+0017.534 (0) No backup of themes: excluded by user's options
+0017.535 (0) No backup of uploads: excluded by user's options
+0017.536 (0) No backup of wpcore: excluded by user's options
+0017.537 (0) No backup of others: excluded by user's options
+0017.537 (0) No backup of more: excluded by user's options
+0017.541 (0) Saving backup status to database (elements: 2)
+0017.544 (0) Beginning creation of database dump (WordPress DB)
+0017.546 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0017.578 (0) Table wp_options: Total expected rows (via COUNT): 286
+0017.579 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.626 (0) Table wp_options: Rows added in this batch (next record: 1677): 282 (uncompressed bytes in this segment=1152997) in 0.05 seconds
+0017.630 (0) Table wp_options: finishing file(s) (2, 150.5 KB)
+0017.641 (0) Table wp_users: Total expected rows (via COUNT): 5
+0017.642 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.644 (0) Table wp_users: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1864) in 0.01 seconds
+0017.648 (0) Table wp_users: finishing file(s) (2, 0.9 KB)
+0017.659 (0) Table wp_usermeta: Total expected rows (via COUNT): 87
+0017.659 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.662 (0) Table wp_usermeta: Rows added in this batch (next record: 87): 87 (uncompressed bytes in this segment=7261) in 0.01 seconds
+0017.665 (0) Table wp_usermeta: finishing file(s) (2, 2.2 KB)
+0017.679 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 37
+0017.680 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.683 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 610): 37 (uncompressed bytes in this segment=17380) in 0.01 seconds
+0017.687 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.9 KB)
+0017.693 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0017.695 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=620) in 0.01 seconds
+0017.699 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0017.718 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0017.719 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.722 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=720) in 0.01 seconds
+0017.727 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0017.746 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 99
+0017.747 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.751 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 99): 99 (uncompressed bytes in this segment=9167) in 0.01 seconds
+0017.755 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0017.773 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0017.776 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=589) in 0.01 seconds
+0017.780 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0017.792 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0017.794 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.797 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1862) in 0.01 seconds
+0017.801 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0017.808 (0) Table wp_links: Total expected rows (via COUNT): 0
+0017.810 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=997) in 0.01 seconds
+0017.815 (0) Table wp_links: finishing file(s) (2, 0.4 KB)
+0018.267 (0) Table wp_postmeta: Total expected rows (approximate): 108879

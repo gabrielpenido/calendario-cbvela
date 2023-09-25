@@ -1,0 +1,401 @@
+0000.000 (0) Opened log file at time: Wed, 14 Dec 2022 13:55:09 +0000 on http://calendario.cbvela.org.br
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.25 WP: 6.1.1 PHP: 7.4.8 (fpm-fcgi, Linux web1165.kinghost.net 4.4.276-1.el6.x86_64 #1 SMP Thu Jul 22 19:41:08 -03 2021 x86_64) MySQL: 5.5.62-log (max packet size=16777216) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 69.6M | 72M) multisite: N openssl: OpenSSL 1.0.1e 11 Feb 2013 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 85288.5 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.011 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.014 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2022-12-14 13:55:09
+0000.016 (0) Semaphore (fd, wp_options) reset to 1
+0000.017 (0) Set semaphore last lock (fd) time to 2022-12-14 13:55:09
+0000.017 (0) Semaphore lock (fd) complete
+0000.023 (0) Backup run: resumption=0, nonce=edb77eb1fc5b, file_nonce=edb77eb1fc5b begun at=1671026109 (0s ago), job type=backup, label=Faça um backup automaticamente antes de
+0000.024 (0) Scheduling a resumption (1) after 300 seconds (1671026409) in case this run gets aborted
+0000.036 (0) Checking if we have a zip executable available
+0000.037 (0) Creation of backups of directories: beginning
+0000.040 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.843 (0) Total entities for the zip file: 1652 directories, 7051 files (0 skipped as non-modified), 102.5 MB
+0002.850 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0002.911 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 100 files added (on-disk size: 292.6 KB)
+0002.948 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 200 files added (on-disk size: 292.6 KB)
+0002.982 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 300 files added (on-disk size: 292.6 KB)
+0003.016 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 400 files added (on-disk size: 292.6 KB)
+0003.044 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 500 files added (on-disk size: 292.6 KB)
+0003.070 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 600 files added (on-disk size: 292.6 KB)
+0003.095 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 700 files added (on-disk size: 292.6 KB)
+0003.117 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 800 files added (on-disk size: 292.6 KB)
+0003.138 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 900 files added (on-disk size: 292.6 KB)
+0003.159 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1000 files added (on-disk size: 292.6 KB)
+0003.161 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.2 MB, 7051 files batched, 1001 (1002) added so far); re-opening (prior size: 292.6 KB)
+0003.602 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1100 files added (on-disk size: 2433 KB)
+0003.624 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1200 files added (on-disk size: 2433 KB)
+0003.647 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1300 files added (on-disk size: 2433 KB)
+0003.673 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1400 files added (on-disk size: 2433 KB)
+0003.695 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1500 files added (on-disk size: 2433 KB)
+0003.711 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.4 MB, 7051 files batched, 573 (1575) added so far); re-opening (prior size: 2433 KB)
+0005.454 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 1.9 s, rate: 13176.1 KB/s)
+0005.461 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.97783303261, normalised_time=1.94291650815, max_time=5.45457911491, data points known=1, old_max_bytes=26214400, new_max_bytes=80953761)
+0005.477 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1600 files added (on-disk size: 8664 KB)
+0005.498 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1700 files added (on-disk size: 8664 KB)
+0005.523 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1800 files added (on-disk size: 8664 KB)
+0005.547 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 1900 files added (on-disk size: 8664 KB)
+0005.572 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2000 files added (on-disk size: 8664 KB)
+0005.595 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2100 files added (on-disk size: 8664 KB)
+0005.617 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2200 files added (on-disk size: 8664 KB)
+0005.642 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2300 files added (on-disk size: 8664 KB)
+0005.670 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2400 files added (on-disk size: 8664 KB)
+0005.700 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2500 files added (on-disk size: 8664 KB)
+0005.722 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.3 MB, 7051 files batched, 1001 (2576) added so far); re-opening (prior size: 8664 KB)
+0006.879 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2600 files added (on-disk size: 12777.5 KB)
+0006.901 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2700 files added (on-disk size: 12777.5 KB)
+0006.925 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2800 files added (on-disk size: 12777.5 KB)
+0006.952 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 2900 files added (on-disk size: 12777.5 KB)
+0006.973 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3000 files added (on-disk size: 12777.5 KB)
+0006.992 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3100 files added (on-disk size: 12777.5 KB)
+0007.013 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3200 files added (on-disk size: 12777.5 KB)
+0007.039 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3300 files added (on-disk size: 12777.5 KB)
+0007.063 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3400 files added (on-disk size: 12777.5 KB)
+0007.085 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3500 files added (on-disk size: 12777.5 KB)
+0007.106 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.1 MB, 7051 files batched, 1001 (3577) added so far); re-opening (prior size: 12777.5 KB)
+0007.954 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3600 files added (on-disk size: 16200.6 KB)
+0007.986 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3700 files added (on-disk size: 16200.6 KB)
+0008.016 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3800 files added (on-disk size: 16200.6 KB)
+0008.047 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 3900 files added (on-disk size: 16200.6 KB)
+0008.083 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4000 files added (on-disk size: 16200.6 KB)
+0008.117 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4100 files added (on-disk size: 16200.6 KB)
+0008.148 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4200 files added (on-disk size: 16200.6 KB)
+0008.180 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4300 files added (on-disk size: 16200.6 KB)
+0008.213 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4400 files added (on-disk size: 16200.6 KB)
+0008.245 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4500 files added (on-disk size: 16200.6 KB)
+0008.266 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.7 MB, 7051 files batched, 1001 (4578) added so far); re-opening (prior size: 16200.6 KB)
+0009.125 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4600 files added (on-disk size: 18236.1 KB)
+0009.156 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4700 files added (on-disk size: 18236.1 KB)
+0009.177 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4800 files added (on-disk size: 18236.1 KB)
+0009.199 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 4900 files added (on-disk size: 18236.1 KB)
+0009.223 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5000 files added (on-disk size: 18236.1 KB)
+0009.247 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5100 files added (on-disk size: 18236.1 KB)
+0009.272 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5200 files added (on-disk size: 18236.1 KB)
+0009.295 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5300 files added (on-disk size: 18236.1 KB)
+0009.320 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5400 files added (on-disk size: 18236.1 KB)
+0009.348 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5500 files added (on-disk size: 18236.1 KB)
+0009.367 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13 MB, 7051 files batched, 1001 (5579) added so far); re-opening (prior size: 18236.1 KB)
+0010.110 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5600 files added (on-disk size: 25023.3 KB)
+0010.138 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5700 files added (on-disk size: 25023.3 KB)
+0010.169 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5800 files added (on-disk size: 25023.3 KB)
+0010.202 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 5900 files added (on-disk size: 25023.3 KB)
+0010.230 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6000 files added (on-disk size: 25023.3 KB)
+0010.259 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6100 files added (on-disk size: 25023.3 KB)
+0010.282 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6200 files added (on-disk size: 25023.3 KB)
+0010.308 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6300 files added (on-disk size: 25023.3 KB)
+0010.338 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6400 files added (on-disk size: 25023.3 KB)
+0010.370 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6500 files added (on-disk size: 25023.3 KB)
+0010.394 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.3 MB, 7051 files batched, 1001 (6580) added so far); re-opening (prior size: 25023.3 KB)
+0011.300 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6600 files added (on-disk size: 31270.5 KB)
+0011.325 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6700 files added (on-disk size: 31270.5 KB)
+0011.349 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6800 files added (on-disk size: 31270.5 KB)
+0011.379 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 6900 files added (on-disk size: 31270.5 KB)
+0011.417 (0) Zip: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.tmp: 7000 files added (on-disk size: 31270.5 KB)
+0012.695 (0) Creating zip file manifest (backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.list-temp.tmp)
+0012.709 (0) Successfully created zip file manifest (size: 596742)
+0013.059 (0) Created plugins zip (0) - 32402 KB in 13 s (2489.7 KB/s) (sha1: ae690e42c1e99b78583576716d5efc20ed7cf38a, sha256: 5c5a8a117279de191d6e1b124f75cc548282f2fd7a7371d78b563eed7ad4ab56)
+0013.061 (0) No backup of themes: excluded by user's options
+0013.062 (0) No backup of uploads: excluded by user's options
+0013.063 (0) No backup of wpcore: excluded by user's options
+0013.064 (0) No backup of others: excluded by user's options
+0013.064 (0) No backup of more: excluded by user's options
+0013.068 (0) Saving backup status to database (elements: 2)
+0013.071 (0) Beginning creation of database dump (WordPress DB)
+0013.074 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0013.089 (0) Table wp_options: Total expected rows (via COUNT): 287
+0013.090 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.202 (0) Table wp_options: Rows added in this batch (next record: 1695): 282 (uncompressed bytes in this segment=1153678) in 0.12 seconds
+0013.208 (0) Table wp_options: finishing file(s) (2, 150.6 KB)
+0013.214 (0) Table wp_users: Total expected rows (via COUNT): 5
+0013.215 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.219 (0) Table wp_users: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1864) in 0.01 seconds
+0013.222 (0) Table wp_users: finishing file(s) (2, 0.9 KB)
+0013.230 (0) Table wp_usermeta: Total expected rows (via COUNT): 87
+0013.231 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.236 (0) Table wp_usermeta: Rows added in this batch (next record: 87): 87 (uncompressed bytes in this segment=7261) in 0.01 seconds
+0013.241 (0) Table wp_usermeta: finishing file(s) (2, 2.2 KB)
+0013.251 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 38
+0013.252 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.256 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 611): 38 (uncompressed bytes in this segment=17876) in 0.01 seconds
+0013.261 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.9 KB)
+0013.269 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0013.272 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=620) in 0.01 seconds
+0013.277 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0013.284 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0013.285 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.288 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=720) in 0.01 seconds
+0013.292 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0013.300 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 102
+0013.301 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.304 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 102): 102 (uncompressed bytes in this segment=9424) in 0.01 seconds
+0013.307 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0013.316 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0013.319 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=589) in 0.01 seconds
+0013.324 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0013.331 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0013.332 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.334 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1862) in 0.01 seconds
+0013.339 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0013.345 (0) Table wp_links: Total expected rows (via COUNT): 0
+0013.348 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=997) in 0.01 seconds
+0013.352 (0) Table wp_links: finishing file(s) (2, 0.4 KB)
+0013.400 (0) Table wp_postmeta: Total expected rows (approximate): 1675
+0347.438 (1) Opened log file at time: Wed, 14 Dec 2022 14:00:56 +0000 on http://calendario.cbvela.org.br
+0347.441 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.25 WP: 6.1.1 PHP: 7.4.8 (fpm-fcgi, Linux web1165.kinghost.net 4.4.276-1.el6.x86_64 #1 SMP Thu Jul 22 19:41:08 -03 2021 x86_64) MySQL: 5.5.62-log (max packet size=16777216) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 58.4M | 60M) multisite: N openssl: OpenSSL 1.0.1e 11 Feb 2013 mcrypt: N LANG:  ZipArchive::addFile: Y
+0347.442 (1) Free space on disk containing Updraft's temporary directory: 85255.7 MB
+0347.444 (1) Requesting backup semaphore lock (edb77eb1fc5b)
+0347.446 (1) [Debug] Lock option (updraft_lock_edb77eb1fc5b, wp_options) was created in the database
+0347.447 (1) [Info] Lock (updraft_lock_edb77eb1fc5b, wp_options) acquired after initialising the database
+0347.449 (1) Backup run: resumption=1, nonce=edb77eb1fc5b, file_nonce=edb77eb1fc5b begun at=1671026109 (347s ago), job type=backup, previous check-in=13.35s
+0347.451 (1) Scheduling a resumption (2) after 300 seconds (1671026756) in case this run gets aborted
+0347.507 (1) Checking if we have a zip executable available
+0347.508 (1) Creation of backups of directories: already finished
+0347.509 (1) Saving backup status to database (elements: 2)
+0347.513 (1) Resuming creation of database dump (WordPress DB)
+0347.515 (1) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0347.521 (1) Table wp_options: corresponding file already exists; moving on
+0347.522 (1) Table wp_users: corresponding file already exists; moving on
+0347.523 (1) Table wp_usermeta: corresponding file already exists; moving on
+0347.525 (1) Table wp_actionscheduler_actions: corresponding file already exists; moving on
+0347.526 (1) Table wp_actionscheduler_claims: corresponding file already exists; moving on
+0347.526 (1) Table wp_actionscheduler_groups: corresponding file already exists; moving on
+0347.526 (1) Table wp_actionscheduler_logs: corresponding file already exists; moving on
+0347.526 (1) Table wp_commentmeta: corresponding file already exists; moving on
+0347.526 (1) Table wp_comments: corresponding file already exists; moving on
+0347.526 (1) Table wp_links: corresponding file already exists; moving on
+0347.534 (1) Table wp_postmeta: Total expected rows (approximate): 1613
+0707.406 (2) Opened log file at time: Wed, 14 Dec 2022 14:06:56 +0000 on http://calendario.cbvela.org.br
+0707.407 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.25 WP: 6.1.1 PHP: 7.4.8 (fpm-fcgi, Linux web1165.kinghost.net 4.4.276-1.el6.x86_64 #1 SMP Thu Jul 22 19:41:08 -03 2021 x86_64) MySQL: 5.5.62-log (max packet size=16777216) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 58.4M | 60M) multisite: N openssl: OpenSSL 1.0.1e 11 Feb 2013 mcrypt: N LANG:  ZipArchive::addFile: Y
+0707.408 (2) Free space on disk containing Updraft's temporary directory: 85255.8 MB
+0707.409 (2) Requesting backup semaphore lock (edb77eb1fc5b)
+0707.411 (2) [Info] Lock (updraft_lock_edb77eb1fc5b, wp_options) acquired
+0707.413 (2) Backup run: resumption=2, nonce=edb77eb1fc5b, file_nonce=edb77eb1fc5b begun at=1671026109 (707s ago), job type=backup
+0707.414 (2) Scheduling a resumption (3) after 300 seconds (1671027116) in case this run gets aborted
+0707.462 (2) Checking if we have a zip executable available
+0707.463 (2) Creation of backups of directories: already finished
+0707.464 (2) Saving backup status to database (elements: 2)
+0707.467 (2) Resuming creation of database dump (WordPress DB)
+0707.469 (2) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0707.474 (2) Table wp_options: corresponding file already exists; moving on
+0707.475 (2) Table wp_users: corresponding file already exists; moving on
+0707.476 (2) Table wp_usermeta: corresponding file already exists; moving on
+0707.476 (2) Table wp_actionscheduler_actions: corresponding file already exists; moving on
+0707.477 (2) Table wp_actionscheduler_claims: corresponding file already exists; moving on
+0707.477 (2) Table wp_actionscheduler_groups: corresponding file already exists; moving on
+0707.477 (2) Table wp_actionscheduler_logs: corresponding file already exists; moving on
+0707.477 (2) Table wp_commentmeta: corresponding file already exists; moving on
+0707.478 (2) Table wp_comments: corresponding file already exists; moving on
+0707.478 (2) Table wp_links: corresponding file already exists; moving on
+0707.483 (2) Table wp_postmeta: Total expected rows (approximate): 2829
+0707.485 (2) Last successful resumption was 2 runs ago; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=)
+1013.680 (3) Opened log file at time: Wed, 14 Dec 2022 14:12:03 +0000 on http://calendario.cbvela.org.br
+1013.682 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.25 WP: 6.1.1 PHP: 7.4.8 (fpm-fcgi, Linux web1165.kinghost.net 4.4.276-1.el6.x86_64 #1 SMP Thu Jul 22 19:41:08 -03 2021 x86_64) MySQL: 5.5.62-log (max packet size=16777216) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 58.8M | 60M) multisite: N openssl: OpenSSL 1.0.1e 11 Feb 2013 mcrypt: N LANG:  ZipArchive::addFile: Y
+1013.683 (3) Free space on disk containing Updraft's temporary directory: 85253.8 MB
+1013.684 (3) Requesting backup semaphore lock (edb77eb1fc5b)
+1013.685 (3) [Info] Lock (updraft_lock_edb77eb1fc5b, wp_options) acquired
+1013.687 (3) Backup run: resumption=3, nonce=edb77eb1fc5b, file_nonce=edb77eb1fc5b begun at=1671026109 (1014s ago), job type=backup
+1013.688 (3) Scheduling a resumption (4) after 300 seconds (1671027423) in case this run gets aborted
+1013.702 (3) Checking if we have a zip executable available
+1013.703 (3) Creation of backups of directories: already finished
+1013.704 (3) Saving backup status to database (elements: 2)
+1013.707 (3) Resuming creation of database dump (WordPress DB)
+1013.708 (3) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+1013.713 (3) Table wp_options: corresponding file already exists; moving on
+1013.714 (3) Table wp_users: corresponding file already exists; moving on
+1013.715 (3) Table wp_usermeta: corresponding file already exists; moving on
+1013.716 (3) Table wp_actionscheduler_actions: corresponding file already exists; moving on
+1013.717 (3) Table wp_actionscheduler_claims: corresponding file already exists; moving on
+1013.717 (3) Table wp_actionscheduler_groups: corresponding file already exists; moving on
+1013.717 (3) Table wp_actionscheduler_logs: corresponding file already exists; moving on
+1013.717 (3) Table wp_commentmeta: corresponding file already exists; moving on
+1013.717 (3) Table wp_comments: corresponding file already exists; moving on
+1013.717 (3) Table wp_links: corresponding file already exists; moving on
+1013.723 (3) Table wp_postmeta: Total expected rows (approximate): 4011
+1013.724 (3) Last successful resumption was 3 runs ago; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=)
+1360.524 (4) Opened log file at time: Wed, 14 Dec 2022 14:17:50 +0000 on http://calendario.cbvela.org.br
+1360.526 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.25 WP: 6.1.1 PHP: 7.4.8 (fpm-fcgi, Linux web1165.kinghost.net 4.4.276-1.el6.x86_64 #1 SMP Thu Jul 22 19:41:08 -03 2021 x86_64) MySQL: 5.5.62-log (max packet size=16777216) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 58.4M | 60M) multisite: N openssl: OpenSSL 1.0.1e 11 Feb 2013 mcrypt: N LANG:  ZipArchive::addFile: Y
+1360.527 (4) Free space on disk containing Updraft's temporary directory: 85253.4 MB
+1360.529 (4) Requesting backup semaphore lock (edb77eb1fc5b)
+1360.530 (4) [Info] Lock (updraft_lock_edb77eb1fc5b, wp_options) acquired
+1360.533 (4) Backup run: resumption=4, nonce=edb77eb1fc5b, file_nonce=edb77eb1fc5b begun at=1671026109 (1361s ago), job type=backup
+1360.534 (4) Scheduling a resumption (5) after 300 seconds (1671027770) in case this run gets aborted
+1360.585 (4) Checking if we have a zip executable available
+1360.586 (4) Creation of backups of directories: already finished
+1360.587 (4) Saving backup status to database (elements: 2)
+1360.590 (4) Resuming creation of database dump (WordPress DB)
+1360.593 (4) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+1360.599 (4) Table wp_options: corresponding file already exists; moving on
+1360.600 (4) Table wp_users: corresponding file already exists; moving on
+1360.601 (4) Table wp_usermeta: corresponding file already exists; moving on
+1360.602 (4) Table wp_actionscheduler_actions: corresponding file already exists; moving on
+1360.603 (4) Table wp_actionscheduler_claims: corresponding file already exists; moving on
+1360.603 (4) Table wp_actionscheduler_groups: corresponding file already exists; moving on
+1360.603 (4) Table wp_actionscheduler_logs: corresponding file already exists; moving on
+1360.603 (4) Table wp_commentmeta: corresponding file already exists; moving on
+1360.603 (4) Table wp_comments: corresponding file already exists; moving on
+1360.603 (4) Table wp_links: corresponding file already exists; moving on
+1360.609 (4) Table wp_postmeta: Total expected rows (approximate): 8733
+1360.610 (4) Last successful resumption was 4 runs ago; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=)
+1691.215 (5) Opened log file at time: Wed, 14 Dec 2022 14:23:20 +0000 on http://calendario.cbvela.org.br
+1691.218 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.14.25 WP: 6.1.1 PHP: 7.4.8 (fpm-fcgi, Linux web1165.kinghost.net 4.4.276-1.el6.x86_64 #1 SMP Thu Jul 22 19:41:08 -03 2021 x86_64) MySQL: 5.5.62-log (max packet size=16777216) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 58.4M | 60M) multisite: N openssl: OpenSSL 1.0.1e 11 Feb 2013 mcrypt: N LANG:  ZipArchive::addFile: Y
+1691.219 (5) Free space on disk containing Updraft's temporary directory: 85252.8 MB
+1691.221 (5) Requesting backup semaphore lock (edb77eb1fc5b)
+1691.222 (5) [Info] Lock (updraft_lock_edb77eb1fc5b, wp_options) acquired
+1691.224 (5) Backup run: resumption=5, nonce=edb77eb1fc5b, file_nonce=edb77eb1fc5b begun at=1671026109 (1691s ago), job type=backup
+1691.225 (5) Scheduling a resumption (6) after 300 seconds (1671028100) in case this run gets aborted
+1691.253 (5) Checking if we have a zip executable available
+1691.254 (5) Creation of backups of directories: already finished
+1691.256 (5) Saving backup status to database (elements: 2)
+1691.259 (5) Resuming creation of database dump (WordPress DB)
+1691.261 (5) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+1691.267 (5) Table wp_options: corresponding file already exists; moving on
+1691.268 (5) Table wp_users: corresponding file already exists; moving on
+1691.269 (5) Table wp_usermeta: corresponding file already exists; moving on
+1691.270 (5) Table wp_actionscheduler_actions: corresponding file already exists; moving on
+1691.271 (5) Table wp_actionscheduler_claims: corresponding file already exists; moving on
+1691.271 (5) Table wp_actionscheduler_groups: corresponding file already exists; moving on
+1691.271 (5) Table wp_actionscheduler_logs: corresponding file already exists; moving on
+1691.271 (5) Table wp_commentmeta: corresponding file already exists; moving on
+1691.271 (5) Table wp_comments: corresponding file already exists; moving on
+1691.271 (5) Table wp_links: corresponding file already exists; moving on
+1691.278 (5) Table wp_postmeta: Total expected rows (approximate): 14936
+1691.280 (5) Last successful resumption was 5 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=)
+1698.243 (5) Table wp_postmeta: Rows added in this batch (next record: 4160): 3780 (uncompressed bytes in this segment=109673299) in 6.97 seconds
+1698.264 (5) Table wp_postmeta: Total expected rows (via COUNT): 3780
+1698.267 (5) Table wp_postmeta: Rows added in this batch (next record: 4160): 0 (uncompressed bytes in this segment=0) in 0.01 seconds
+1698.272 (5) Table wp_postmeta: finishing file(s) (3, 3420.3 KB)
+1698.354 (5) Table wp_posts: Total expected rows (approximate): 1218
+1698.865 (5) Table wp_posts: Rows added in this batch (next record: 577): 552 (uncompressed bytes in this segment=8120519) in 0.59 seconds
+1698.871 (5) Table wp_posts: finishing file(s) (2, 449.3 KB)
+1698.880 (5) Table wp_term_relationships: Total expected rows (approximate): 3
+1698.883 (5) Table wp_term_relationships: Rows added in this batch (next record: 100000): 3 (uncompressed bytes in this segment=695) in 0.01 seconds
+1698.887 (5) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+1698.900 (5) Table wp_term_taxonomy: Total expected rows (via COUNT): 3
+1698.901 (5) Last successful resumption was 5 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1698.904 (5) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=892) in 0.01 seconds
+1698.908 (5) Table wp_term_taxonomy: finishing file(s) (2, 0.4 KB)
+1698.923 (5) Table wp_termmeta: Total expected rows (via COUNT): 0
+1698.925 (5) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=562) in 0.01 seconds
+1698.929 (5) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+1698.942 (5) Table wp_terms: Total expected rows (via COUNT): 3
+1698.943 (5) Last successful resumption was 5 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1698.946 (5) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=728) in 0.01 seconds
+1698.949 (5) Table wp_terms: finishing file(s) (2, 0.4 KB)
+1698.960 (5) Table wp_e_events: Total expected rows (via COUNT): 2
+1698.961 (5) Last successful resumption was 5 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1698.963 (5) Table wp_e_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=911) in 0.01 seconds
+1698.968 (5) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+1698.994 (5) Table wp_e_submissions: Total expected rows (via COUNT): 0
+1698.996 (5) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1938) in 0.01 seconds
+1699.000 (5) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+1699.014 (5) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+1699.015 (5) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1093) in 0.01 seconds
+1699.019 (5) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.4 KB)
+1699.031 (5) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+1699.033 (5) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=628) in 0.01 seconds
+1699.037 (5) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+1699.050 (5) Table wp_sib_model_forms: Total expected rows (via COUNT): 1
+1699.051 (5) Last successful resumption was 5 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1699.054 (5) Table wp_sib_model_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3354) in 0.01 seconds
+1699.059 (5) Table wp_sib_model_forms: finishing file(s) (2, 1.2 KB)
+1699.073 (5) Table wp_sib_model_users: Total expected rows (via COUNT): 0
+1699.076 (5) Table wp_sib_model_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.01 seconds
+1699.081 (5) Table wp_sib_model_users: finishing file(s) (2, 0.4 KB)
+1699.101 (5) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 3
+1699.103 (5) Last successful resumption was 5 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1699.106 (5) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=887) in 0.01 seconds
+1699.111 (5) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+1699.131 (5) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 0
+1699.134 (5) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=695) in 0.01 seconds
+1699.138 (5) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+1699.149 (5) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 2
+1699.150 (5) Last successful resumption was 5 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1699.153 (5) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=822) in 0.01 seconds
+1699.159 (5) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+1699.162 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_options.table.tmpr1696.gz (1/25/fopen): adding to final database dump
+1699.166 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_options.table.gz (2/25/fopen): adding to final database dump
+1699.167 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_users.table.tmpr6.gz (3/25/fopen): adding to final database dump
+1699.168 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_users.table.gz (4/25/fopen): adding to final database dump
+1699.169 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_usermeta.table.tmpr88.gz (5/25/fopen): adding to final database dump
+1699.170 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_usermeta.table.gz (6/25/fopen): adding to final database dump
+1699.171 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_actionscheduler_actions.table.tmpr612.gz (7/25/fopen): adding to final database dump
+1699.172 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_actionscheduler_actions.table.gz (8/25/fopen): adding to final database dump
+1699.173 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/25/fopen): adding to final database dump
+1699.174 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_actionscheduler_claims.table.gz (10/25/fopen): adding to final database dump
+1699.175 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/25/fopen): adding to final database dump
+1699.176 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_actionscheduler_groups.table.gz (12/25/fopen): adding to final database dump
+1699.176 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_actionscheduler_logs.table.tmpr103.gz (13/25/fopen): adding to final database dump
+1699.177 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_actionscheduler_logs.table.gz (14/25/fopen): adding to final database dump
+1699.178 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_commentmeta.table.tmpr0.gz (15/25/fopen): adding to final database dump
+1699.179 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_commentmeta.table.gz (16/25/fopen): adding to final database dump
+1699.180 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_comments.table.tmpr2.gz (17/25/fopen): adding to final database dump
+1699.181 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_comments.table.gz (18/25/fopen): adding to final database dump
+1699.182 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_links.table.tmpr0.gz (19/25/fopen): adding to final database dump
+1699.183 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_links.table.gz (20/25/fopen): adding to final database dump
+1699.184 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_postmeta.table.tmpr4160.gz (21/25/fopen): adding to final database dump
+1699.215 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_postmeta.table.tmpr4161.gz (22/25/fopen): adding to final database dump
+1699.217 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_postmeta.table.gz (23/25/fopen): adding to final database dump
+1699.219 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_posts.table.tmpr578.gz (24/25/fopen): adding to final database dump
+1699.224 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_posts.table.gz (25/25/fopen): adding to final database dump
+1699.226 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_term_relationships.table.tmpr100001.gz (26/25/fopen): adding to final database dump
+1699.227 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_term_relationships.table.gz (27/25/fopen): adding to final database dump
+1699.228 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_term_taxonomy.table.tmpr4.gz (28/25/fopen): adding to final database dump
+1699.229 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_term_taxonomy.table.gz (29/25/fopen): adding to final database dump
+1699.230 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_termmeta.table.tmpr0.gz (30/25/fopen): adding to final database dump
+1699.231 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_termmeta.table.gz (31/25/fopen): adding to final database dump
+1699.231 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_terms.table.tmpr4.gz (32/25/fopen): adding to final database dump
+1699.232 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_terms.table.gz (33/25/fopen): adding to final database dump
+1699.233 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_e_events.table.tmpr3.gz (34/25/fopen): adding to final database dump
+1699.233 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_e_events.table.gz (35/25/fopen): adding to final database dump
+1699.234 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_e_submissions.table.tmpr0.gz (36/25/fopen): adding to final database dump
+1699.235 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_e_submissions.table.gz (37/25/fopen): adding to final database dump
+1699.236 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (38/25/fopen): adding to final database dump
+1699.237 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_e_submissions_actions_log.table.gz (39/25/fopen): adding to final database dump
+1699.238 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_e_submissions_values.table.tmpr0.gz (40/25/fopen): adding to final database dump
+1699.239 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_e_submissions_values.table.gz (41/25/fopen): adding to final database dump
+1699.240 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_sib_model_forms.table.tmpr2.gz (42/25/fopen): adding to final database dump
+1699.241 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_sib_model_forms.table.gz (43/25/fopen): adding to final database dump
+1699.242 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_sib_model_users.table.tmpr0.gz (44/25/fopen): adding to final database dump
+1699.243 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_sib_model_users.table.gz (45/25/fopen): adding to final database dump
+1699.244 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_wpforms_tasks_meta.table.tmpr4.gz (46/25/fopen): adding to final database dump
+1699.245 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_wpforms_tasks_meta.table.gz (47/25/fopen): adding to final database dump
+1699.246 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_wpmailsmtp_debug_events.table.tmpr0.gz (48/25/fopen): adding to final database dump
+1699.247 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_wpmailsmtp_debug_events.table.gz (49/25/fopen): adding to final database dump
+1699.248 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr3.gz (50/25/fopen): adding to final database dump
+1699.249 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db-table-wp_wpmailsmtp_tasks_meta.table.gz (51/25/fopen): adding to final database dump
+1699.257 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db.gz: finished writing out complete database file (4035.3 KB)
+1699.312 (5) Total database tables backed up: 25 (backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db.gz, size: 4132308, sha1: d0b8c9f0ffbfc642e8ce0166f639d294493df330, sha256: 437a10b9618b7016a7213a0fad676b915ca34cf591b6531e5e952f8fbd30fc22)
+1699.320 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1699.321 (5) backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db.gz: db: This file has not yet been successfully uploaded: will queue
+1699.322 (5) Saving backup history. Total backup size: 35.6 MB
+1699.326 (5) Requesting upload of the files that have not yet been successfully uploaded (2)
+1699.329 (5) Cloud backup selection (1/1): none with instance (1/1) (last)
+1699.330 (5) No remote despatch: user chose no remote backup service
+1699.331 (5) Recording as successfully uploaded: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip
+1699.333 (5) Deleting zip manifest (backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-plugins.zip.list.tmp)
+1699.334 (5) Recording as successfully uploaded: backup_2022-12-14-1055_Calendrio_CBVela_edb77eb1fc5b-db.gz
+1699.339 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1699.341 (5) Number of backup sets in history: 3; groups (db): 1
+1699.342 (5) Examining (for databases) backup set with group_id=0, nonce=edb77eb1fc5b, datestamp=1671026109 (Dec 14 2022 13:55:09)
+1699.342 (5) This backup set is the backup set just made, so will not be deleted.
+1699.342 (5) Examining (for databases) backup set with group_id=0, nonce=03e7ed1a2175, datestamp=1671025420 (Dec 14 2022 13:43:40)
+1699.342 (5) Examining (for databases) backup set with group_id=0, nonce=268b01a1baad, datestamp=1668628549 (Nov 16 2022 19:55:49)
+1699.342 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.343 (5) Number of backup sets in history: 3; groups (files): 1
+1699.344 (5) Examining (for files) backup set with nonce=edb77eb1fc5b, datestamp=1671026109 (Dec 14 2022 13:55:09)
+1699.344 (5) This backup set is the backup set just made, so will not be deleted.
+1699.345 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.346 (5) Examining (for files) backup set with nonce=03e7ed1a2175, datestamp=1671025420 (Dec 14 2022 13:43:40)
+1699.346 (5) This backup set (1671025420) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+1699.346 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+1699.347 (5) Examining (for files) backup set with nonce=268b01a1baad, datestamp=1668628549 (Nov 16 2022 19:55:49)
+1699.347 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.348 (5) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1699.352 (5) Resume backup (edb77eb1fc5b, 5): finish run
+1699.354 (5) [Info] Lock option (updraft_lock_edb77eb1fc5b, wp_options) released
+1699.355 (5) There were no errors in the uploads, so the 'resume' event (6) is being unscheduled
+1699.359 (5) The backup apparently succeeded and is now complete
+1699.361 (5) No email will/can be sent - the user has not configured an email address.
+1699.361 (5) O backup aparentemente foi bem sucedido e está completo agora.

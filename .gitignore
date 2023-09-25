@@ -1,0 +1,65 @@
+# Local #
+#########
+*.map
+node_modules/
+bower_components/
+dist/
+ai1wm-backups/
+vendor/
+dist/
+lastbuild.txt
+*.lock
+
+# Themes
+themes/*
+!themes/dignas
+
+# Plugins #
+###########
+plugins/*
+
+# WordPress #
+#############
+/.htaccess
+/index.php
+/languages
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+/backup-db/
+/backups/
+blogs.dir/
+/cache/
+/upgrade/
+/uploads/
+/xmlrpc.php
+package-lock.json
+lastbuild.txt
+
+# Logs and databases #
+######################
+/logs
+*.log
+*.sql
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+*.bak
+*.swp
+*.orig
+.vscode
+*.code-workspace
+
+# Yarn #
+#############
+yarn.lock
