@@ -23,7 +23,24 @@
 		<?php wp_head(); ?>
 
         <style>
-
+			.evento-title {
+				background-color: rgb(216, 145, 43);
+				color: #2C3D73;
+				font-family: "Roboto", Sans-serif;
+				font-size: 22px;
+				font-weight: 600;
+				text-align: center;
+				
+			}
+			.mes {
+				background-color: rgb(25, 96, 54);
+				color: #FFFFFF;
+				font-family: "Roboto", Sans-serif;
+				font-size: 18px;
+				font-weight: 600;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
         </style>
 
 	</head>

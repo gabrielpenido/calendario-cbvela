@@ -35,7 +35,11 @@ $query = new WP_Query($args);
 if ($query->have_posts()) :
     while ($query->have_posts()) : $query->the_post();
         // Aqui você pode exibir o conteúdo de cada postagem
-        the_title(); // Título da postagem
+        ?>
+		<div class="evento-title">
+			<?php the_title(); // Título da postagem ?>
+		</div><?php
+		
         
 		$events = get_field('events', get_the_ID());
 
@@ -43,20 +47,23 @@ if ($query->have_posts()) :
 
 			foreach ($events as $key => $event) {
 
-				if(!empty($event['mes'])){
-					echo 'mes:' . $event['mes'];
+				if(!empty($event['mes'])){ ?>
+					<div class="mes">
+						<?php echo $event['mes']; ?>
+					</div><?php
+					
 				}
 
 				if (!empty($event['informacao'])){
 					foreach ($event['informacao'] as $key => $info) {
 						if(!empty($info['data'])){
-							echo 'data:' . $info['data'];
+							echo $info['data'];
 						}
 						if(!empty($info['modalidade'])){
-							echo 'modalidade:' . $info['modalidade'];
+							echo  $info['modalidade'];
 						}
 						if(!empty($info['modalidade'])){
-							echo 'local:' . $info['local'];
+							echo  $info['local'];
 						}
 					}
 				}
