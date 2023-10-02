@@ -26,8 +26,6 @@ get_header();
 $args = array(
     'post_type' => 'eventos',
     'posts_per_page' => -1, // Altere o número de postagens exibidas conforme necessário
-	'orderby' => 'date', // Ordena por data de publicação
-    'order'   => 'ASC',  // Ordenação ascendente (do mais antigo para o mais novo)
 );
 
 // Execute a consulta
