@@ -125,6 +125,10 @@
 				align-items: center;
 				font-family: "Roboto", Sans-serif;
 			}
+			.local-p {
+				word-wrap: break-word;
+				width: 100px;
+			}
 
 			@media (max-width: 800px){
 				body{
@@ -135,7 +139,7 @@
 				}
 				.modalidade {
 					width: 160px;
-					height: 117px;
+					height: 122px;
 				}
 				.data {
 					width: 100px;

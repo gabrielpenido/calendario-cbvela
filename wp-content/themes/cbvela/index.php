@@ -71,24 +71,27 @@ if ($query->have_posts()) :
 				if (!empty($event['informacao'])){
 						foreach ($event['informacao'] as $key => $info) { ?>
 						<div class="informacao"> <?php
-								if(!empty($info['data'])){?>
-									<div class="data">
-										<?php echo $info['data']; ?>
-									</div>
-									<?php
-								}
-								if(!empty($info['modalidade'])){?>
-									<div class="modalidade">
-										<?php echo  $info['modalidade']; ?>
-									</div>
-									<?php
-								}
-								if(!empty($info['local'])){?>
-									<div class="local">
-										<?php echo  $info['local']; ?>
-									</div>
-									<?php
-								}
+								?><div class="data"> <?php
+									if(!empty($info['data'])){?>
+										
+											<?php echo $info['data']; 
+									}
+								?></div>
+
+								<div class="modalidade"><?php
+									if(!empty($info['modalidade'])){?>
+											<?php echo  $info['modalidade'];
+									}
+								?></div>
+
+								<div class="local"><?php
+									if(!empty($info['local'])){?>
+											<p class="local-p">
+											<?php echo  $info['local'];
+											?></p><?php
+									}
+								?></div><?php
+
 							?></div><?php
 						}
 				
