@@ -26,10 +26,26 @@ get_header();
 $args = array(
     'post_type' => 'eventos',
     'posts_per_page' => -1, // Altere o número de postagens exibidas conforme necessário
+	'orderby' => 'date', // Ordena por data de publicação
+    'order'   => 'ASC',  // Ordenação ascendente (do mais antigo para o mais novo)
 );
 
 // Execute a consulta
 $query = new WP_Query($args);
+?>
+<div class="cabecalho-body">
+	<img style="width: 399px; height: 113px;" src="https://calendario.cbvela.org.br/wp-content/uploads/2022/12/Logo-CBVela-T4_1-1-768x219.png" alt="Logo CbVela">
+	<h1 class="title-regatas">
+		CALENDÁRIO DE REGATAS – 2023
+	</h1>
+	<h3 class="form-cbvela">
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLSeSm61BMf95KqE2pJ6SbngRIdgG2_5QsL8j_SlePZgME7bZXw/viewform">
+			Formulário Calendário 2023
+		</a>
+	</h3>
+</div>
+<?php
+
 
 // Verifique se há postagens
 if ($query->have_posts()) :
@@ -55,17 +71,29 @@ if ($query->have_posts()) :
 				}
 
 				if (!empty($event['informacao'])){
-					foreach ($event['informacao'] as $key => $info) {
-						if(!empty($info['data'])){
-							echo $info['data'];
+						foreach ($event['informacao'] as $key => $info) { ?>
+						<div class="informacao"> <?php
+								if(!empty($info['data'])){?>
+									<div class="data">
+										<?php echo $info['data']; ?>
+									</div>
+									<?php
+								}
+								if(!empty($info['modalidade'])){?>
+									<div class="modalidade">
+										<?php echo  $info['modalidade']; ?>
+									</div>
+									<?php
+								}
+								if(!empty($info['local'])){?>
+									<div class="local">
+										<?php echo  $info['local']; ?>
+									</div>
+									<?php
+								}
+							?></div><?php
 						}
-						if(!empty($info['modalidade'])){
-							echo  $info['modalidade'];
-						}
-						if(!empty($info['modalidade'])){
-							echo  $info['local'];
-						}
-					}
+				
 				}
 
 			}
